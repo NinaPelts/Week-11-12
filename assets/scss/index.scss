@@ -8,11 +8,11 @@ body {
 }
 
 .dashboard__container {
-    display: grid;
     width: 1440px;
     height: 1200px;
-    grid-template-columns: 85px 702px 430px;
-    grid-template-rows: 200px 408px 335px;
+    display: grid;
+    grid-template-columns: 85px 759px 472px;
+    grid-template-rows: 200px 430px 353px;
     gap: 30px;
 }
 
@@ -21,7 +21,8 @@ body {
 .header {
     grid-row: 1/2;
     grid-column: 2/4;
-    border: 1px solid blue;
+    background-color: #fff;
+    border-radius: 11px;
 }
 
 
@@ -30,7 +31,8 @@ body {
 .sidebar {
     grid-row: 1/4;
     grid-column: 1/2;
-    border: 1px solid red;
+    background-color: #fff;
+    border-radius: 11px;
 }
 
 // Стили main
@@ -42,8 +44,8 @@ main {
 
 .main__container {
     display: grid;
-    grid-template-columns: 702px 430px;
-    grid-template-rows: 408px 335px;
+    grid-template-columns: 759px 472px;
+    grid-template-rows: 430px 353px;
     gap: 30px;
 }
 
@@ -52,7 +54,8 @@ main {
 .visitors {
     grid-row: 1/2;
     grid-column: 1/2;
-    border: 1px solid green;
+    background-color: #fff;
+    border-radius: 11px;
 }
 
 
@@ -61,7 +64,8 @@ main {
 .order-status {
     grid-row: 1/2;
     grid-column: 2/3;
-    border: 1px solid gray;
+    background-color: #fff;
+    border-radius: 11px;
 }
 
 
@@ -70,7 +74,35 @@ main {
 .resent-services {
     grid-row: 2/3;
     grid-column: 1/2;
-    border: 1px solid salmon;
+    background-color: #fff;
+    border-radius: 11px;
+
+    .resent-services__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .resent-services__titel {
+        margin: 0 0 26px 0;
+        padding: 26px 0 0 26px;
+        font-size: 19px;
+        font-weight: 500;
+        opacity: 70%;
+    }
+
+    .resent-services__link {
+        text-decoration: none;
+        opacity: 30%;
+        color: #06152B;
+        font-weight: 700;
+        padding-right: 55px;
+    }
+
+    .table__item--text {
+        font-size: 13px;
+        font-weight: 400;
+    }
 }
 
 // Стили Selling-services
@@ -78,5 +110,6 @@ main {
 .selling-services {
     grid-row: 2/3;
     grid-column: 2/3;
-    border: 1px solid violet;
+    background-color: #fff;
+    border-radius: 11px;
 }
