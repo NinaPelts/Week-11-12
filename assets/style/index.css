@@ -64,11 +64,10 @@ main {
 .resent-services .resent-services__header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 26px 0 0 26px;
 }
 .resent-services .resent-services__titel {
-  margin: 0 0 26px 0;
-  padding: 26px 0 0 26px;
+  margin: 0;
   font-size: 19px;
   font-weight: 500;
   opacity: 70%;
@@ -80,9 +79,60 @@ main {
   font-weight: 700;
   padding-right: 55px;
 }
-.resent-services .table__item--text {
+.resent-services .table-flex {
   font-size: 13px;
   font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0 26px;
+}
+.resent-services .table-flex__row {
+  display: flex;
+  flex-direction: row;
+  height: 58px;
+}
+.resent-services .row--bg {
+  border-radius: 5px;
+  background-color: #F1F4FA;
+}
+.resent-services .table-flex__cell {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex: 1 1 auto;
+}
+.resent-services .table-flex__cell--image {
+  padding-left: 10px;
+  width: 5%;
+}
+.resent-services .table-flex__cell--picture {
+  width: 25%;
+  padding-right: 10px;
+}
+.resent-services .column-1 {
+  padding-left: 21px;
+}
+.resent-services .column-3 {
+  padding-left: 45px;
+}
+.resent-services .column-4 {
+  width: 64px;
+  height: 11px;
+  border-radius: 8px;
+  color: #3A36DB;
+  background-color: rgb(223, 222, 251);
+  padding: 10px 0;
+}
+.resent-services .column-5 {
+  padding-left: 15px;
+}
+.resent-services .line {
+  width: 100%;
+  color: #06152B;
+  opacity: 15%;
+  margin: 0;
 }
 
 .selling-services {
@@ -90,6 +140,55 @@ main {
   grid-column: 2/3;
   background-color: #fff;
   border-radius: 11px;
+}
+.selling-services .selling-services__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 0 0 26px;
+}
+.selling-services .selling-services__title {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 500;
+  opacity: 70%;
+}
+.selling-services .selling-services__link {
+  text-decoration: none;
+  opacity: 30%;
+  color: #06152B;
+  font-weight: 700;
+  padding-right: 55px;
+}
+.selling-services .cards__container {
+  padding: 23px 40px 0 24px;
+}
+.selling-services .card-1 {
+  display: flex;
+  padding-bottom: 22px;
+}
+.selling-services .line {
+  width: 100%;
+  color: #06152B;
+  opacity: 15%;
+  margin: 0;
+}
+.selling-services .card__image {
+  width: 92px;
+  height: 96px;
+}
+.selling-services .card__text {
+  padding-left: 19px;
+  font-weight: 500;
+}
+.selling-services .card__text--title {
+  margin: 10px 0;
+}
+.selling-services .card__text--untertitle {
+  margin: 10px 0;
+}
+.selling-services .card-2 {
+  display: flex;
+  padding-top: 23px;
 }
 
 /*# sourceMappingURL=index.css.map */
