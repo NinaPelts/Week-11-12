@@ -26,7 +26,7 @@ body {
 }
 
 
- // Стили sidebar
+// Стили sidebar
 
 .sidebar {
     grid-row: 1/4;
@@ -56,6 +56,75 @@ main {
     grid-column: 1/2;
     background-color: #fff;
     border-radius: 11px;
+    position: relative;
+
+    .visitors__header {
+        display: flex;
+        justify-content: space-between;
+        padding: 26px 0 35.21px 26px;
+
+        .visitors__titel {
+            margin: 0;
+            font-size: 19px;
+            font-weight: 500;
+            opacity: 70%;
+        }
+
+        .visitors__link {
+            text-decoration: none;
+            opacity: 30%;
+            color: #06152B;
+            font-weight: 700;
+            padding-right: 55px;
+        }
+    }
+
+    .visitors__table-y {
+        // background-color: #9897ff;
+        font-size: 13px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        padding: 0 26px;
+        opacity: 70%;
+
+        .visitors__table {
+            // border: 2px solid black;
+            display: flex;
+            height: 54px;
+            align-items: start;
+        }
+
+        .visitors__table-and {
+            height: 20px;
+        }
+
+        .line {
+            width: 100%;
+            color: #06152B;
+            opacity: 15%;
+            margin-top: 5;
+            margin-left: 16.41px;
+        }
+    }
+
+    .visitors__table-x {
+        display: flex;
+        font-size: 13px;
+        font-weight: 400;
+        padding: 0 55.55px;
+        opacity: 70%;
+        justify-content: space-between;
+    }
+
+    .visitors_vector-img {
+        width: 680px;
+        height: 196.48px;
+        position: absolute;
+        left: 7%;
+        bottom: 20%;
+    }
+
 }
 
 
@@ -107,7 +176,7 @@ main {
         text-align: center;
         padding: 0 26px;
     }
-    
+
     .table-flex__row {
         display: flex;
         flex-direction: row;
@@ -118,7 +187,7 @@ main {
         border-radius: 5px;
         background-color: #F1F4FA;
     }
-    
+
     .table-flex__cell {
         display: flex;
         align-items: center;
@@ -143,7 +212,7 @@ main {
     .column-3 {
         padding-left: 45px;
     }
-    
+
     .column-4 {
         width: 64px;
         height: 11px;
@@ -152,7 +221,7 @@ main {
         background-color: rgba(223, 222, 251, 1);
         padding: 10px 0;
     }
-    
+
     .column-5 {
         padding-left: 15px;
     }
@@ -185,7 +254,7 @@ main {
         font-weight: 500;
         opacity: 70%;
     }
-    
+
     .selling-services__link {
         text-decoration: none;
         opacity: 30%;
@@ -212,7 +281,7 @@ main {
 
     .card__image {
         width: 92px;
-        height: 96px;   
+        height: 96px;
     }
 
     .card__text {

@@ -1,213 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style/normalize.css" />
-    <link rel="stylesheet" href="./assets/style/index.css" />
-    <title>Dashboard</title>
-  </head>
-  <body>
-    <div class="dashboard__container">
-      <!-- Блок 1. Header -->
-      <header class="header"></header>
-      <!-- Блок 2. Боковая панель -->
-      <aside class="sidebar"></aside>
-      <main class="main">
-        <div class="main__container">
-          <!-- Блок 3.1. График визиторс  -->
-          <section class="visitors"></section>
-          <!-- Блок 3.2. Статус заказа -->
-          <section class="order-status"></section>
-          <!-- Блок 4.1. Недавние сервисы -->
-          <section class="resent-services">
-            <div class="resent-services__container">
-              <div class="resent-services__header">
-                <h2 class="resent-services__titel">Recent Services</h2>
-                <a href="#!" class="resent-services__link">...</a>
-              </div>
-              <div class="table-flex">
-                <div class="table-flex__head">
-                  <div class="table-flex__row">
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-1">Order ID</p>
-                      <img
-                        src="./assets/images/arrow.svg"
-                        alt="arrow"
-                        class="table-flex__cell--image"
-                      />
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text">Service Name</p>
-                      <img
-                        src="./assets/images/arrow.svg"
-                        alt="arrow"
-                        class="table-flex__cell--image"
-                      />
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-3">Price</p>
-                      <img
-                        src="./assets/images/arrow.svg"
-                        alt="arrow"
-                        class="table-flex__cell--image"
-                      />
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text">Total Order</p>
-                      <img
-                        src="./assets/images/arrow.svg"
-                        alt="arrow"
-                        class="table-flex__cell--image"
-                      />
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text">Total Amount</p>
-                    </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/style/normalize.css" />
+  <link rel="stylesheet" href="./assets/style/index.css" />
+  <title>Dashboard</title>
+</head>
+
+<body>
+  <div class="dashboard__container">
+    <!-- Блок 1. Header -->
+    <header class="header"></header>
+    <!-- Блок 2. Боковая панель -->
+    <aside class="sidebar"></aside>
+    <main class="main">
+      <div class="main__container">
+
+
+        <!-- Блок 3.1. График визиторс  -->
+        <section class="visitors">
+          <div class="visitors__header">
+            <h2 class="visitors__titel">Visitors</h2>
+            <a href="#!" class="visitors__link">...</a>
+          </div>
+          <div class="visitors__table-y">
+            <div class="visitors__table">
+              <div>100</div>
+              <hr class="line" />
+            </div>
+            <div class="visitors__table">
+              <div>80</div>
+              <hr class="line" />
+            </div>
+            <div class="visitors__table">
+              <div>60</div>
+              <hr class="line" />
+            </div>
+            <div class="visitors__table">
+              <div>40</div>
+              <hr class="line" />
+            </div>
+            <div class="visitors__table">
+              <div>20</div>
+              <hr class="line" />
+            </div>
+            <div class="visitors__table visitors__table-and">
+              <div>0</div>
+              <hr class="line" />
+            </div>
+          </div>
+
+          <div class="visitors__table-x">
+            <div>10am</div>
+            <div>11am</div>
+            <div>12am</div>
+            <div>01am</div>
+            <div>02am</div>
+            <div>03am</div>
+            <div>04am</div>
+            <div>05am</div>
+            <div>06m</div>
+            <div>07am</div>
+          </div>
+
+          <div class="visitors_vector-img">
+            <img src="./assets/images/visitors_vector.png" alt="visitors_vector">
+          </div>
+
+        </section>
+
+
+        <!-- Блок 3.2. Статус заказа -->
+        <section class="order-status"></section>
+
+
+        <!-- Блок 4.1. Недавние сервисы -->
+        <section class="resent-services">
+          <div class="resent-services__container">
+            <div class="resent-services__header">
+              <h2 class="resent-services__titel">Recent Services</h2>
+              <a href="#!" class="resent-services__link">...</a>
+            </div>
+            <div class="table-flex">
+              <div class="table-flex__head">
+                <div class="table-flex__row">
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-1">Order ID</p>
+                    <img src="./assets/images/arrow.svg" alt="arrow" class="table-flex__cell--image" />
+                  </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text">Service Name</p>
+                    <img src="./assets/images/arrow.svg" alt="arrow" class="table-flex__cell--image" />
+                  </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-3">Price</p>
+                    <img src="./assets/images/arrow.svg" alt="arrow" class="table-flex__cell--image" />
+                  </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text">Total Order</p>
+                    <img src="./assets/images/arrow.svg" alt="arrow" class="table-flex__cell--image" />
+                  </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text">Total Amount</p>
                   </div>
                 </div>
-                <hr class="line" />
-                <div class="table-flex__body">
-                  <div class="table-flex__row">
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-1">#876364</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <img
-                        src="./assets/images/Ui-Ux.png"
-                        alt="design"
-                        class="table-flex__cell--picture"
-                      />
-                      <p class="table-flex__cell--text">Ui/Ux Designing</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-3">$178</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-4">325</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-5">$1,46,660</p>
-                    </div>
+              </div>
+              <hr class="line" />
+              <div class="table-flex__body">
+                <div class="table-flex__row">
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-1">#876364</p>
                   </div>
-                  <div class="table-flex__row row--bg">
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-1">#876368</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <img
-                        src="./assets/images/Bug-fix.png"
-                        alt="design"
-                        class="table-flex__cell--picture"
-                      />
-                      <p class="table-flex__cell--text">Bug Fix</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-3">$14</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-4">53</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-5">$46,660</p>
-                    </div>
+                  <div class="table-flex__cell">
+                    <img src="./assets/images/Ui-Ux.png" alt="design" class="table-flex__cell--picture" />
+                    <p class="table-flex__cell--text">Ui/Ux Designing</p>
                   </div>
-                  <div class="table-flex__row">
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-1">#876412</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <img
-                        src="./assets/images/Wordpress.png"
-                        alt="design"
-                        class="table-flex__cell--picture"
-                      />
-                      <p class="table-flex__cell--text">Wordpress</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-3">$21</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-4">78</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-5">$3,46,676</p>
-                    </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-3">$178</p>
                   </div>
-                  <div class="table-flex__row row--bg">
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-1">#876621</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <img
-                        src="./assets/images/MobileDesign.png"
-                        alt="design"
-                        class="table-flex__cell--picture"
-                      />
-                      <p class="table-flex__cell--text">Mobile Design</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-3">$32</p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-4 text--color">
-                        98
-                      </p>
-                    </div>
-                    <div class="table-flex__cell">
-                      <p class="table-flex__cell--text column-5">$3,46,981</p>
-                    </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-4">325</p>
+                  </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-5">$1,46,660</p>
+                  </div>
+                </div>
+                <div class="table-flex__row row--bg">
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-1">#876368</p>
+                  </div>
+                  <div class="table-flex__cell">
+                    <img src="./assets/images/Bug-fix.png" alt="design" class="table-flex__cell--picture" />
+                    <p class="table-flex__cell--text">Bug Fix</p>
+                  </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-3">$14</p>
+                  </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-4">53</p>
+                  </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-5">$46,660</p>
+                  </div>
+                </div>
+                <div class="table-flex__row">
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-1">#876412</p>
+                  </div>
+                  <div class="table-flex__cell">
+                    <img src="./assets/images/Wordpress.png" alt="design" class="table-flex__cell--picture" />
+                    <p class="table-flex__cell--text">Wordpress</p>
+                  </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-3">$21</p>
+                  </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-4">78</p>
+                  </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-5">$3,46,676</p>
+                  </div>
+                </div>
+                <div class="table-flex__row row--bg">
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-1">#876621</p>
+                  </div>
+                  <div class="table-flex__cell">
+                    <img src="./assets/images/MobileDesign.png" alt="design" class="table-flex__cell--picture" />
+                    <p class="table-flex__cell--text">Mobile Design</p>
+                  </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-3">$32</p>
+                  </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-4 text--color">
+                      98
+                    </p>
+                  </div>
+                  <div class="table-flex__cell">
+                    <p class="table-flex__cell--text column-5">$3,46,981</p>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
-          <!--Блок 4.2 Популярные сервисы -->
-          <section class="selling-services">
-            <div class="selling-services__container">
-              <div class="selling-services__header">
-                <h2 class="selling-services__title">Top Selling Services</h2>
-                <a href="#!" class="selling-services__link">...</a>
-              </div>
-              <div class="cards__container">
-                <div class="card-1">
-                  <img
-                    src="./assets/images/web-development.png"
-                    alt="computer"
-                    class="card__image"
-                  />
-                  <div class="card__text">
-                    <p class="card__text--title">Web Development</p>
-                    <img
-                      src="./assets/images/star.png"
-                      alt="star"
-                      class="card__text--image"
-                    />
-                    <p class="card__text--untertitle">$87</p>
-                  </div>
+          </div>
+        </section>
+        <!--Блок 4.2 Популярные сервисы -->
+        <section class="selling-services">
+          <div class="selling-services__container">
+            <div class="selling-services__header">
+              <h2 class="selling-services__title">Top Selling Services</h2>
+              <a href="#!" class="selling-services__link">...</a>
+            </div>
+            <div class="cards__container">
+              <div class="card-1">
+                <img src="./assets/images/web-development.png" alt="computer" class="card__image" />
+                <div class="card__text">
+                  <p class="card__text--title">Web Development</p>
+                  <img src="./assets/images/star.png" alt="star" class="card__text--image" />
+                  <p class="card__text--untertitle">$87</p>
                 </div>
-                <hr class="line" />
-                <div class="card-2">
-                  <img
-                    src="./assets/images/designing.png"
-                    alt="computer"
-                    class="card__image"
-                  />
-                  <div class="card__text">
-                    <p class="card__text--title">UI/UX Designing</p>
-                    <img
-                      src="./assets/images/star2.png"
-                      alt="star"
-                      class="card__text--image"
-                    />
-                    <p class="card__text--untertitle">$987</p>
-                  </div>
+              </div>
+              <hr class="line" />
+              <div class="card-2">
+                <img src="./assets/images/designing.png" alt="computer" class="card__image" />
+                <div class="card__text">
+                  <p class="card__text--title">UI/UX Designing</p>
+                  <img src="./assets/images/star2.png" alt="star" class="card__text--image" />
+                  <p class="card__text--untertitle">$987</p>
                 </div>
               </div>
             </div>
-          </section>
-        </div>
-      </main>
-    </div>
-  </body>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+</body>
+
 </html>
