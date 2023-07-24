@@ -97,7 +97,7 @@ main {
   opacity: 70%;
   justify-content: space-between;
 }
-.visitors .visitors_vector-img {
+.visitors .visitors_vector_img {
   width: 680px;
   height: 196.48px;
   position: absolute;
@@ -110,6 +110,46 @@ main {
   grid-column: 2/3;
   background-color: #fff;
   border-radius: 11px;
+}
+.order-status .order-status__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 0 0 26px;
+}
+.order-status .order-status__header .order-status__titel {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 500;
+  opacity: 70%;
+}
+.order-status .order-status__header .order-status__link {
+  text-decoration: none;
+  opacity: 30%;
+  color: #06152B;
+  font-weight: 700;
+  padding-right: 55px;
+}
+.order-status .order-status-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.order-status .order-status__table {
+  display: flex;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0 55.55px;
+  opacity: 70%;
+  justify-content: space-around;
+}
+.order-status .order-status__table .order-status__icon {
+  display: flex;
+  align-items: center;
+}
+.order-status .order-status__table .order-status__p {
+  padding-left: 10.56px;
 }
 
 .resent-services {
